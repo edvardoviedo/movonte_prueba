@@ -19,7 +19,7 @@ const HeroSection = () => {
     }, 100);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [fullText]);
 
   const scrollToServices = () => {
     const element = document.getElementById('services');
